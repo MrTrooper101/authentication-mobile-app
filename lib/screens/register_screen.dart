@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:auth_mobile_app/widgets/custom_textfield.dart';
 import 'package:flutter/material.dart';
 
@@ -84,7 +82,7 @@ class RegisterScreen extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
-                      onPressed: () => Navigator.pushNamed(context, '/home'),
+                      onPressed: () => Navigator.pushNamed(context, '/login'),
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.blue,
                         foregroundColor: Colors.white,
